@@ -100,7 +100,7 @@ Die Einträge im Gesamtdatenexport sind auf zwei verschiedene Arten intern nicht
 - Es wird auf Einträge verwiesen, die im Gesamtdatenexport nicht vorkommen.
 
 
-### Duplizierte Einträge
+### Duplizierte Einträge ([#1](https://github.com/marktstammdatenregister-dev/feler/issues/1))
 
 Duplizierte Einträge kommen am Ende und am Anfang von aufeinander folgenden XML-Dateien eines bestimmten Datentyps vor.
 Im [Gesamtdatenexport vom 3. Februar 2022][export-archived] findet sich ein Beispiel: die EEG-Solaranlage mit der Marktstammdatenregisternummer EEG930980053027 kommt sowohl als letzter Eintrag in `AnlagenEegSolar_7.xml` als auch als erster Eintrag in `AnlagenEegSolar_8` vor.
