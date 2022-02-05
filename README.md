@@ -422,7 +422,7 @@ Wie überall in diesem Dokument ist der Referenzpunkt für Exportdaten der [Gesa
 - Laut Dokumentation ist der Elementname z.B. `EineitWind`, im Export heißt es `EinheitWind`.
 - Laut Dokumentation ist der Dateiname z.B. `EineitenWind.xml`, im Export heißt die Datei `EinheitenWind.xml`.
 
-**Gasverbraucher:** hier hat sich zusätzlich zu "Eineit" noch ein Unterschied in der groß/Kleinschreibung eingeschlichen:
+**Gasverbraucher:** hier hat sich zusätzlich zu "Eineit" noch ein Unterschied in der Groß-/Kleinschreibung eingeschlichen:
 - Laut Dokumentation ist das Rootelement `EineitenGasVerbraucher`, im Export heißt es `EinheitenGasverbraucher`.
 - Laut Dokumentation ist der Elementname `EineitGasVerbraucher`, im Export heißt es `EinheitGasverbraucher`.
 - Laut Dokumentation ist der Dateiname `EinheitenGasverbraucher.xml`, im Export heißt die Datei `EinheitenGasverbraucher.xml`.
