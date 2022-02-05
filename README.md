@@ -29,7 +29,7 @@ Um ein konkretes Beispiel zu nehmen: der Gesamtdatenexport vom 3. Februar 2022 (
 
 ```console
 $ unzip -l Gesamtdatenexport_20220203__840cfde7b693453982d28db827025ff0.zip
-Archive:  /home/leo/Downloads/Gesamtdatenexport_20220203__840cfde7b693453982d28db827025ff0.zip
+Archive:  Gesamtdatenexport_20220203__840cfde7b693453982d28db827025ff0.zip
   Length      Date    Time    Name
 ---------  ---------- -----   ----
  29103018  02-03-2022 01:00   AnlagenEegBiomasse.xml
