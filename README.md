@@ -155,7 +155,7 @@ $ xmllint -format AnlagenEegSolar_8.xml | nl | grep EEG930980053027 --before-con
 Eine Verdoppelung von Daten dieser Art sollte nicht passieren und deutet darauf hin, dass beim Exportprozess etwas schief läuft.
 
 
-### Kaputte Verweise
+### Kaputte Verweise ([#2](https://github.com/marktstammdatenregister-dev/feler/issues/2), [#3](https://github.com/marktstammdatenregister-dev/feler/issues/3))
 
 Im [Gesamtdatenexport vom 3. Februar 2022][export-archived] gibt es mehrere Beispiele von Verweisen auf Einträge, die nicht im Export vorkommen.
 Hier zwei Beispiele.
