@@ -17,7 +17,7 @@ Dieses Repository soll Abhilfe schaffen: hier können Nutzer des Marktstammdaten
 Die Hoffnung ist natürlich, dass die Probleme auch behoben werden -- hier ist die Bundesnetzagentur am Zug.
 
 
-## Struktur der Gesamtdatenexport-Datei
+## Struktur der Gesamtdatenexport-Datei ([#4](https://github.com/marktstammdatenregister-dev/feler/issues/4))
 
 Der Gesamtdatenexport ist eine ZIP-Datei, die wiederum eine oder mehrere XML-Dateien pro Datentyp enthält.
 Als Datentyp zählen hier zum Beispiel Windenergieeinheiten oder Biomasseanlagen.
