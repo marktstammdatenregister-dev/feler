@@ -408,7 +408,7 @@ EinheitenGasverbraucher.xml
 
 ### Unterschiede in der Schreibweise
 
-An verschiedenen Stellen in der Dokumentation und in den Daten kommen Rechtschreibfehler vor.
+An verschiedenen Stellen in der [Dokumentation][export-doc-archived] und in den Daten kommen Rechtschreibfehler vor.
 Kompatibilität ist ein hohes Gut, selbst wenn es bedeutet, dass Rechtschreibfehler in den Daten nicht korrigiert werden.
 
 Was allerdings korrigiert werden sollte, sind Fehler in der Dokumentation.
@@ -425,7 +425,7 @@ Wie überall in diesem Dokument ist der Referenzpunkt für Exportdaten der [Gesa
 **Gasverbraucher:** hier hat sich zusätzlich zu "Eineit" noch ein Unterschied in der Groß-/Kleinschreibung eingeschlichen:
 - Laut Dokumentation ist das Rootelement `EineitenGasVerbraucher`, im Export heißt es `EinheitenGasverbraucher`.
 - Laut Dokumentation ist der Elementname `EineitGasVerbraucher`, im Export heißt es `EinheitGasverbraucher`.
-- Laut Dokumentation ist der Dateiname `EineitenGasverbraucher.xml`, im Export heißt die Datei `EinheitenGasverbraucher.xml`.
+- Laut Dokumentation ist der Dateiname `EineitenGasVerbraucher.xml`, im Export heißt die Datei `EinheitenGasverbraucher.xml`.
 
 **Feldnamen:** in allen zwölf Einheiten-Datentypen divergieren die Schreibweisen der Felder wie folgt:
 - Laut Dokumentation heißt eines der Felder `AnlagenbetreiberMaStRNummer`, im Export heißt es `AnlagenbetreiberMastrNummer`.
