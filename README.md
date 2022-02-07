@@ -397,7 +397,6 @@ EinheitenGasErzeuger.xml ([#25](https://github.com/marktstammdatenregister-dev/f
 EinheitenGasSpeicher.xml ([#26](https://github.com/marktstammdatenregister-dev/feler/issues/26))
 - `Hausnummer` fehlt in 6 Einträgen, z.B. EinheitMastrNummer=GEE941903701734
 - `Weic` fehlt in 30 Einträgen, z.B. EinheitMastrNummer=GEE905950524425
-- `Weic_nv` fehlt in 53 Einträgen, z.B. EinheitMastrNummer=GEE900074558080
 
 EinheitenGasverbraucher.xml ([#27](https://github.com/marktstammdatenregister-dev/feler/issues/27))
 - `AnlagenbetreiberMastrNummer` fehlt in 9 Einträgen, z.B. EinheitMastrNummer=GVE916010877795
@@ -437,7 +436,7 @@ Zusätzlich unterscheiden sich die Schreibweisen der folgenden Felder:
 
 **Feldtypen:** der Typ von `EinheitenVerbrennung.WeitereBrennstoffe` ist "int" in der Dokumentation, im Export jedoch handelt es sich um eine Zeichenkette (die selbst eine Liste von Zeichenketten, durch Kommata getrennt, enthält).
 
-**Weitere Fehler:** die Dokumentation nennt `EinheitenGasSpeicher.Weic` doppelt. Die zweite Nennung sollte `Weic_nv` heißen. Der Beispielwert hier is "balse", es sollte "false" heißen.
+**Weitere Fehler:** die Dokumentation nennt `EinheitenGasSpeicher.Weic` doppelt. Die zweite Nennung sollte `Weic_Na` heißen. Der Beispielwert hier is "balse", es sollte "false" heißen.
 
 **Übereinstimmende Rechtschreibfehler:** hier stimmen Dokumentation und Daten überein. Dies betrifft die folgenden Felder des Datentyps "Marktakteur":
 - `DatumLetzeAktualisierung`
@@ -445,7 +444,7 @@ Zusätzlich unterscheiden sich die Schreibweisen der folgenden Felder:
 - `HauptwirtdschaftszweigGruppe`
 - `HauptwirtdschaftszweigAbschnitt`
 
-... und das Feld `ZugeordnenteWirkleistungWechselrichter` des Datentyps `EinheitenStromSpeicher`.
+... sowie `EinheitenStromSpeicher.ZugeordnenteWirkleistungWechselrichter` und `EinheitenGasverbraucher.NameGasverbrauchsseinheit`.
 
 Diese Felder in der Dokumentation sollten zum Beispiel mit "(sic)" gekennzeichnet werden, um klarzustellen, dass es sich zwar um Rechtschreibfehler handelt, die Daten aber damit korrekt beschrieben sind.
 
