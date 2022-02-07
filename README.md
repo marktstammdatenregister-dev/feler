@@ -222,11 +222,11 @@ Im Gesamtdatenexport fehlen viele dieser Pflichtfelder.
 
 Die folgenden _Pflichtfelder_ fehlen im [Gesamtdatenexport vom 3. Februar 2022][export-archived] (pro Datentyp ist immer nur eine XML-Datei angegeben):
 
-Bilanzierungsgebiete.xml
+Bilanzierungsgebiete.xml ([#5](https://github.com/marktstammdatenregister-dev/feler/issues/5))
 - `BilanzierungsgebietNetzanschlusspunkt` fehlt in 498 Einträgen, z.B. Id=2
 - `Yeic` fehlt in 3 Einträgen, z.B. Id=826
 
-Marktakteure_1.xml
+Marktakteure_1.xml ([#6](https://github.com/marktstammdatenregister-dev/feler/issues/6))
 - `AcerCode` fehlt in 99904 Einträgen, z.B. MastrNummer=ABR111222333123
 - `AcerCode_nv` fehlt in 90662 Einträgen, z.B. MastrNummer=ABR111222333123
 - `BundesnetzagenturBetriebsnummer` fehlt in 89859 Einträgen, z.B. MastrNummer=ABR111222333123
@@ -249,18 +249,18 @@ Marktakteure_1.xml
 - `Webseite` fehlt in 97509 Einträgen, z.B. MastrNummer=ABR111222333123
 - `Webseite_nv` fehlt in 90662 Einträgen, z.B. MastrNummer=ABR111222333123
 
-Marktrollen.xml
+Marktrollen.xml ([#7](https://github.com/marktstammdatenregister-dev/feler/issues/7))
 - `BundesnetzagenturBetriebsnummer_nv` fehlt in 3447 Einträgen, z.B. MastrNummer=BVI900545854635EV
 - `DatumLetzteAktualisierung` fehlt in 7371 Einträgen, z.B. MastrNummer=BVI900545854635EV
 - `KontaktdatenMarktrolle` fehlt in 7479 Einträgen, z.B. MastrNummer=BVI900545854635EV
 
-Netze.xml
+Netze.xml ([#8](https://github.com/marktstammdatenregister-dev/feler/issues/8))
 - `Bezeichnung` fehlt in 803 Einträgen, z.B. MastrNummer=GNE904875516911
 - `DatumLetzteAktualisierung` fehlt in 57 Einträgen, z.B. MastrNummer=GNE913909037773
 - `GeschlossenesVerteilnetz` fehlt in 10 Einträgen, z.B. MastrNummer=GNE904875516911
 - `KundenAngeschlossen` fehlt in 69 Einträgen, z.B. MastrNummer=GNE904875516911
 
-AnlagenEegWind.xml
+AnlagenEegWind.xml ([#9](https://github.com/marktstammdatenregister-dev/feler/issues/9))
 - `AnlagenkennzifferAnlagenregister` fehlt in 24175 Einträgen, z.B. EegMaStRNummer=EEG900001494788
 - `AusschreibungZuschlag` fehlt in 901 Einträgen, z.B. EegMaStRNummer=EEG900199883449
 - `PilotAnlage` fehlt in 26710 Einträgen, z.B. EegMaStRNummer=EEG900001494788
@@ -270,34 +270,34 @@ AnlagenEegWind.xml
 - `VerhaeltnisReferenzertragErtrag15Jahre` fehlt in 31137 Einträgen, z.B. EegMaStRNummer=EEG900001494788
 - `VerhaeltnisReferenzertragErtrag5Jahre` fehlt in 19113 Einträgen, z.B. EegMaStRNummer=EEG900007922711
 
-AnlagenEegSolar_1.xml
+AnlagenEegSolar_1.xml ([#10](https://github.com/marktstammdatenregister-dev/feler/issues/10))
 - `AnlagenkennzifferAnlagenregister` fehlt in 99955 Einträgen, z.B. EegMaStRNummer=EEG900000009389
 - `RegistrierungsnummerPvMeldeportal` fehlt in 75493 Einträgen, z.B. EegMaStRNummer=EEG900000016417
 
-AnlagenEegBiomasse.xml
+AnlagenEegBiomasse.xml ([#11](https://github.com/marktstammdatenregister-dev/feler/issues/11))
 - `AnlagenkennzifferAnlagenregister` fehlt in 13103 Einträgen, z.B. EegMaStRNummer=EEG900007238652
 - `AusschreibungZuschlag` fehlt in 1070 Einträgen, z.B. EegMaStRNummer=EEG900034100342
 - `BiogasGaserzeugungskapazitaet` fehlt in 8876 Einträgen, z.B. EegMaStRNummer=EEG900012882178
 - `BiomethanErstmaligerEinsatz` fehlt in 12568 Einträgen, z.B. EegMaStRNummer=EEG900007238652
 - `Registrierungsdatum` fehlt in 1 Einträgen, z.B. EegMaStRNummer=EEG932023218028
 
-AnlagenEegWasser.xml
+AnlagenEegWasser.xml ([#12](https://github.com/marktstammdatenregister-dev/feler/issues/12))
 - `AnlagenkennzifferAnlagenregister` fehlt in 5624 Einträgen, z.B. EegMaStRNummer=EEG900001696977
 - `Registrierungsdatum` fehlt in 1 Einträgen, z.B. EegMaStRNummer=EEG943532633103
 
-AnlagenEegGeoSolarthermieGrubenKlaerschlammDruckentspannung.xml
+AnlagenEegGeoSolarthermieGrubenKlaerschlammDruckentspannung.xml ([#13](https://github.com/marktstammdatenregister-dev/feler/issues/13))
 - `AnlagenkennzifferAnlagenregister` fehlt in 181 Einträgen, z.B. EegMaStRNummer=EEG901102403709
 - `EegMastrNummer` fehlt in 184 Einträgen, z.B. EegMaStRNummer=EEG901102403709
 
-AnlagenKwk.xml
+AnlagenKwk.xml ([#14](https://github.com/marktstammdatenregister-dev/feler/issues/14))
 - `AnlageBetriebsstatus` fehlt in 86985 Einträgen, z.B. KwkMastrNummer=KWK900003009119
 - `Inbetriebnahmedatum` fehlt in 8773 Einträgen, z.B. KwkMastrNummer=KWK901420108287
 - `Registrierungsdatum` fehlt in 8780 Einträgen, z.B. KwkMastrNummer=KWK906730599329
 
-EinheitenGenehmigung.xml
+EinheitenGenehmigung.xml ([#15](https://github.com/marktstammdatenregister-dev/feler/issues/15))
 - `Frist` fehlt in 18162 Einträgen, z.B. GenMastrNummer=SGE900003214940
 
-EinheitenWind.xml
+EinheitenWind.xml ([#16](https://github.com/marktstammdatenregister-dev/feler/issues/16))
 - `AnlagenbetreiberMastrNummer` fehlt in 397 Einträgen, z.B. EinheitMastrNummer=SEE900238810627
 - `AuflageAbschaltungLeistungsbegrenzung` fehlt in 1756 Einträgen, z.B. EinheitMastrNummer=SEE900115838133
 - `EegMaStRNummer` fehlt in 1830 Einträgen, z.B. EinheitMastrNummer=SEE900037558577
@@ -315,7 +315,7 @@ EinheitenWind.xml
 - `Wassertiefe` fehlt in 31450 Einträgen, z.B. EinheitMastrNummer=SEE900002935310
 - `Weic` fehlt in 31803 Einträgen, z.B. EinheitMastrNummer=SEE900002935310
 
-EinheitenSolar_1.xml
+EinheitenSolar_1.xml ([#17](https://github.com/marktstammdatenregister-dev/feler/issues/17))
 - `AnlagenbetreiberMastrNummer` fehlt in 59 Einträgen, z.B. EinheitMastrNummer=SEE900088188204
 - `EegMaStRNummer` fehlt in 377 Einträgen, z.B. EinheitMastrNummer=SEE900006249024
 - `Hausnummer` fehlt in 92752 Einträgen, z.B. EinheitMastrNummer=SEE900000156564
@@ -323,7 +323,7 @@ EinheitenSolar_1.xml
 - `Kraftwerksnummer` fehlt in 100000 Einträgen, z.B. EinheitMastrNummer=SEE900000156564
 - `Weic` fehlt in 100000 Einträgen, z.B. EinheitMastrNummer=SEE900000156564
 
-EinheitenBiomasse.xml
+EinheitenBiomasse.xml ([#18](https://github.com/marktstammdatenregister-dev/feler/issues/18))
 - `Hausnummer` fehlt in 4946 Einträgen, z.B. EinheitMastrNummer=SEE900000911668
 - `Hausnummer_nv` fehlt in 831 Einträgen, z.B. EinheitMastrNummer=SEE900000911668
 - `Kraftwerksnummer` fehlt in 21089 Einträgen, z.B. EinheitMastrNummer=SEE900000911668
@@ -334,7 +334,7 @@ EinheitenBiomasse.xml
 - `Technologie` fehlt in 3 Einträgen, z.B. EinheitMastrNummer=SEE907541917340
 - `Weic` fehlt in 21064 Einträgen, z.B. EinheitMastrNummer=SEE900000911668
 
-EinheitenWasser.xml
+EinheitenWasser.xml ([#19](https://github.com/marktstammdatenregister-dev/feler/issues/19))
 - `AnlagenbetreiberMastrNummer` fehlt in 22 Einträgen, z.B. EinheitMastrNummer=SEE904155331845
 - `EegMaStRNummer` fehlt in 1875 Einträgen, z.B. EinheitMastrNummer=SEE900012607467
 - `Hausnummer` fehlt in 4580 Einträgen, z.B. EinheitMastrNummer=SEE900012607467
@@ -344,14 +344,14 @@ EinheitenWasser.xml
 - `Nettonennleistung` fehlt in 1 Einträgen, z.B. EinheitMastrNummer=SEE930688632715
 - `Weic` fehlt in 8380 Einträgen, z.B. EinheitMastrNummer=SEE900012607467
 
-EinheitenGeoSolarthermieGrubenKlaerschlammDruckentspannung.xml
+EinheitenGeoSolarthermieGrubenKlaerschlammDruckentspannung.xml ([#20](https://github.com/marktstammdatenregister-dev/feler/issues/20))
 - `Hausnummer` fehlt in 184 Einträgen, z.B. EinheitMastrNummer=SEE900331826662
 - `Hausnummer_nv` fehlt in 74 Einträgen, z.B. EinheitMastrNummer=SEE901437097857
 - `Kraftwerksnummer` fehlt in 455 Einträgen, z.B. EinheitMastrNummer=SEE900331826662
 - `LokationMaStRNummer` fehlt in 15 Einträgen, z.B. EinheitMastrNummer=SEE900842254756
 - `Weic` fehlt in 455 Einträgen, z.B. EinheitMastrNummer=SEE900331826662
 
-EinheitenVerbrennung.xml
+EinheitenVerbrennung.xml ([#21](https://github.com/marktstammdatenregister-dev/feler/issues/21))
 - `AnlagenbetreiberMastrNummer` fehlt in 1193 Einträgen, z.B. EinheitMastrNummer=SEE900073920406
 - `AnzeigeEinerStilllegung` fehlt in 76355 Einträgen, z.B. EinheitMastrNummer=SEE900001203007
 - `ArtDerStilllegung` fehlt in 77102 Einträgen, z.B. EinheitMastrNummer=SEE900001203007
@@ -366,14 +366,14 @@ EinheitenVerbrennung.xml
 - `WeitereBrennstoffe` fehlt in 74749 Einträgen, z.B. EinheitMastrNummer=SEE900001203007
 - `WeitererHauptbrennstoff` fehlt in 68892 Einträgen, z.B. EinheitMastrNummer=SEE900001203007
 
-EinheitenKernkraft.xml
+EinheitenKernkraft.xml ([#22](https://github.com/marktstammdatenregister-dev/feler/issues/22))
 - `AnlagenbetreiberMastrNummer` fehlt in 1 Einträgen, z.B. EinheitMastrNummer=SEE927528071629
 - `Hausnummer` fehlt in 4 Einträgen, z.B. EinheitMastrNummer=SEE930752846949
 - `Kraftwerksnummer` fehlt in 4 Einträgen, z.B. EinheitMastrNummer=SEE930752846949
 - `LokationMaStRNummer` fehlt in 1 Einträgen, z.B. EinheitMastrNummer=SEE927528071629
 - `Weic` fehlt in 3 Einträgen, z.B. EinheitMastrNummer=SEE930752846949
 
-EinheitenStromSpeicher_1.xml
+EinheitenStromSpeicher_1.xml ([#23](https://github.com/marktstammdatenregister-dev/feler/issues/23))
 - `AnlagenbetreiberMastrNummer` fehlt in 135 Einträgen, z.B. EinheitMastrNummer=SEE900357122236
 - `EegMaStRNummer` fehlt in 3397 Einträgen, z.B. EinheitMastrNummer=SEE900004095760
 - `Hausnummer` fehlt in 99719 Einträgen, z.B. EinheitMastrNummer=SEE900000066023
@@ -383,23 +383,23 @@ EinheitenStromSpeicher_1.xml
 - `Nettonennleistung` fehlt in 3 Einträgen, z.B. EinheitMastrNummer=SEE910814993941
 - `Weic` fehlt in 99977 Einträgen, z.B. EinheitMastrNummer=SEE900000066023
 
-EinheitenStromVerbraucher.xml
+EinheitenStromVerbraucher.xml ([#24](https://github.com/marktstammdatenregister-dev/feler/issues/24))
 - `Hausnummer` fehlt in 69 Einträgen, z.B. EinheitMastrNummer=SVE900066805970
 - `LokationMaStRNummer` fehlt in 47 Einträgen, z.B. EinheitMastrNummer=SVE900530977578
 
-EinheitenGasErzeuger.xml
+EinheitenGasErzeuger.xml ([#25](https://github.com/marktstammdatenregister-dev/feler/issues/25))
 - `Erzeugungsleistung` fehlt in 53 Einträgen, z.B. EinheitMastrNummer=GEE900074558080
 - `Hausnummer` fehlt in 108 Einträgen, z.B. EinheitMastrNummer=GEE900074558080
 - `Hausnummer_nv` fehlt in 53 Einträgen, z.B. EinheitMastrNummer=GEE900074558080
 - `LokationMaStRNummer` fehlt in 7 Einträgen, z.B. EinheitMastrNummer=GEE903148821912
 - `SpeicherMaStRNummer` fehlt in 254 Einträgen, z.B. EinheitMastrNummer=GEE900126760591
 
-EinheitenGasSpeicher.xml
+EinheitenGasSpeicher.xml ([#26](https://github.com/marktstammdatenregister-dev/feler/issues/26))
 - `Hausnummer` fehlt in 6 Einträgen, z.B. EinheitMastrNummer=GEE941903701734
 - `Weic` fehlt in 30 Einträgen, z.B. EinheitMastrNummer=GEE905950524425
 - `Weic_nv` fehlt in 53 Einträgen, z.B. EinheitMastrNummer=GEE900074558080
 
-EinheitenGasverbraucher.xml
+EinheitenGasverbraucher.xml ([#27](https://github.com/marktstammdatenregister-dev/feler/issues/27))
 - `AnlagenbetreiberMastrNummer` fehlt in 9 Einträgen, z.B. EinheitMastrNummer=GVE916010877795
 - `Hausnummer` fehlt in 55 Einträgen, z.B. EinheitMastrNummer=GVE904101321760
 - `LokationMaStRNummer` fehlt in 27 Einträgen, z.B. EinheitMastrNummer=GVE901033793832
