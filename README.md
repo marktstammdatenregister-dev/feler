@@ -5,7 +5,7 @@ Es wird von der Bundesnetzagentur geführt.
 Alle Anlagenbetreiber, Netzbetreiber, Energielieferanten sowie alle Strom- und Gaserzeugungsanlagen sind darin registriert.
 Das macht es zu einer enorm wichtigen Datenquelle, um die Entwicklung der deutschen Energieversorgungskapazitäten zu verstehen.
 
-Der t "Gesamtdatenexport" des Marktstammdatenregisters steht zum [Download][export-download] bereit.
+Der tägliche "Gesamtdatenexport" des Marktstammdatenregisters steht zum [Download][export-download] bereit.
 Zumindest theoretisch ermöglichen die darin enthaltenen Rohdaten eine flexible Verarbeitung der Registereinträge.
 
 Leider gibt es Fehler sowohl in der Dokumentation als auch in den Exportdateien selbst.
