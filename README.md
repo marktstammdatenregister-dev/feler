@@ -81,7 +81,7 @@ Laut [Abschitt 3.2][export-doc-3-2] der Dokumentation haben die Exportdateien Na
 Gesamtdatenexport_20220605_V1.0.0_61dv68165qe16q5e1vq61b.zip
 ```
 
-(Die Zufallszeichen sollen den automatischen Download unmöglich machen, siehe [Abschnitt 2.3][export-doc-2-3] und den Abschnitt "Schutz vor automatisiertem Download" weiter unten.)
+(Die Zufallszeichen sollen den automatischen Download unmöglich machen, siehe [Abschnitt 2.3][export-doc-2-3].)
 
 Tatsächlich war der Name der Exportdatei
 - am 3. Februar 2022: `Gesamtdatenexport_20220203__840cfde7b693453982d28db827025ff0.zip`
